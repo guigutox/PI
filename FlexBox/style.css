@@ -1,0 +1,16 @@
+.flex-container{
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap;  */
+    /* permite com que ele quebre as linhas caso necessario */   
+}
+
+.flex-item{
+    height: 45%;
+    /* flex:1 1 20%; */
+}
