@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+<body>
+
+<p>CADASTRO DE PERFIL</p>
+
+<form action="pag2.html" method="get">
+
+
+    <div>
+        <label for="produto">Nome</label>
+        <input type="text" name="nome" id="nome">
+        <label for="Sobrenome">Sobrenome</label>
+        <input typ="text">
+    </div>
+
+
+
+    <br>
+    <fieldset>
+        <legend>ESTADO CIVIL</legend>
+            <input type="radio" name="estadocivil" id="solteiro" checked>Solteiro<br>
+            <input type="radio" name="estadocivil" id="casado">Casado<br>
+            <input type="radio" name="estadocivil" id="divorciado">Divorciado<br>
+        </fieldset>
+
+    <fieldset>
+        <legend>Recomendação</legend>
+            <div>
+                <input type="checkbox" name="familia" id="recomendação[]" > Familia <br>
+                <input type="checkbox" name="amigos" id="recomendação[]" > Amigos <br>
+                <input type="checkbox" name="propaganda" id="recomendação[]" > Propaganda <br>
+                <input type="checkbox" name="nenhum" id="rsportes[]" > Nenhum <br>
+            </div>
+    </fieldset>
+    <fieldset>
+        <legend>Data de nascimento</legend>
+        <div>
+            <input type="date">
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Dados Adicionais</legend>
+            <label for="email">E-mail</label>
+            <input type="email">
+            <label for="telefone">Telefone</label>
+            <input type="tel">
+            <label for="Avaliação">Avaliação</label>
+            <input type="number">
+    </fieldset>
+
+        <fieldset>
+            <legend>Outros campos</legend>
+                <label for="cor">Cor</label>
+                <input type="color">
+                <label for="arquivo">Arquivo</label>
+                <input type="file">
+                <label for="estado">Estado: </label>
+                <select name="Estado" id="">
+                    <option value="amazonas">Amazonas</option>
+                    <option value="saopaulo">São Paulo</option>
+                    <option value="riodejaneiro">Rio de Janeiro</option>
+                </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Comentario</legend>
+            <textarea name="" id="" cols="30" rows="10">
+                
+            </textarea>
+        </fieldset>
+
+    
+<button type="submit">Cadastrar</button>
+<input type="reset" value="limpar">
+
+
+</form>
+
+
+</body>
+</html>
