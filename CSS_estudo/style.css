@@ -1,0 +1,40 @@
+.externo{
+    color: green;
+}
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div > p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.seletor{
+    color: orange;
+}
+
+h2 p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 + div{
+    color: red;
+}
+
+h3 ~ p {
+    text-transform: uppercase;
+}
+input[required]{
+    background-color: red;
+}
+
+p.classeTexto{
+    color: blue;
+    text-transform: lowercase;
+}
+
+#par{
+    color: green;
+    text-transform: uppercase;
+}

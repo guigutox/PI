@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Estudo CSS</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+
+        #inline{
+            color: red;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #texto{
+            font-size:100%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>ESTUDO CSS</h1>
+
+    <h2 style="color: blue">CSS INLINE</h2>
+    <p style="font-size:100%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora veniam atque commodi autem adipisci cumque provident repudiandae quas optio molestiae fugiat, ullam tempore libero cum nam sit sapiente iusto dolorem!</p>
+
+    <h2 id="inline">CSS EMBUTIDO</h2>
+    <p id="texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A repudiandae eligendi iure sint, autem necessitatibus quia ab ipsa amet? Et distinctio odit omnis dolorum necessitatibus adipisci illo consectetur aliquid ab.</p>
+    
+    <h2 class="externo">CSS EXTERNO</h2>
+    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam officiis, consequatur doloremque nulla et dolorem magnam explicabo iste earum placeat id illo sit tenetur ducimus eos, voluptatum minus obcaecati necessitatibus.</p>
+
+
+    <h2 class="seletor">Seletor de Filho X > Y</h2>
+    <div>
+    <p>Afeta os elementos y que sao flihos de elementos x </p>
+    </div>
+
+    <h2 class="seletor">Seletor de Descendente X Y</h2>
+    <div>
+        <p>Afeta os elementos Y que estao dentro dos elementos X mesmoq ue tenha outros elementos aninhados entre eles</p>
+    </div>
+
+    <h3 class="seletor">Seletor de Irmão adjacente X + Y</h3>
+   <div>
+        <p>Afeta o elemento Y caso ele eseteja imediatamente depois de X</p>
+   </div>
+
+   <h2 class="seletor">Seletor de irmão geral X ~ Y</h2>
+   <p>Afeta todos os elementos de Y que são irmãos de X e aparecem depois de X</p>
+
+   <h2 class="seletor">Seletor de atributo x[atrib]</h2>
+   <p>Seleciona elementos de acordo com alguma condição envolvendo seus atributos</p>
+   <form action="">
+        <input type="text" required>
+   </form>
+
+   <h2 class="seletor">Seletor de ID</h2>
+   <p id="par">Quando se deseja aplicar estilos e apenas um elemento é afetado</p>
+
+   <h2 class="seletor">Seletor de Classe (.nomeClasse)</h2>
+   <p class="classeTexto">Define uma classe de estilos para ser utilizada apenas no elemnto  X </p>
+
+
+
+
+</body>
+</html>
